@@ -40,7 +40,7 @@ export default function Quiz({ topic = 'javascript', count = 5 }) {
         setError(null)
 
         const { data } = await axios.post(
-          'https://quizzly-backend-2.onrender.com/quiz',
+          'https://quizzly-backend-iy92.onrender.com',
           { topic, count },
           { headers: { 'Content-Type': 'application/json' } }
         )
